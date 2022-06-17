@@ -20,4 +20,4 @@ jobs:
         run: npm install
 
       - name: Run app in PM2
-        run: PORT=4001 pm2 start server.js
+        run: PORT=4005 npm start
